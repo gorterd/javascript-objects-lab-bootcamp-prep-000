@@ -14,3 +14,7 @@ function deleteFromObjectByKey(object, key){
   return tempObject
 }
 
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete object[key]
+  return object
+}
