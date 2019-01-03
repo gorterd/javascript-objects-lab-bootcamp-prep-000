@@ -13,3 +13,4 @@ function deleteFromObjectByKey(object, key){
   delete tempObject[key]
   return tempObject
 }
+
